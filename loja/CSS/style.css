@@ -1,0 +1,52 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+  background-color: black;height: 90vh;
+}
+
+section{
+    margin-top: 20px;
+   text-align: center;
+   height: 100%;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+ 
+    height: 100%;
+}
+form{
+    font-size: 20px;
+    gap: 10px;
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: start;
+    border-radius: 10px;
+    padding: 10px 100px;
+    border: 1px solid white;
+}
+
+input,input::placeholder{
+    width: 100%;
+    color: black;
+    
+}
+
+h1{
+    margin-bottom: 10px;
+ 
+      border-radius: 10px;
+    padding:0px 110px;
+}
+textarea{
+     width: 100%;
+     color: black;
+}
